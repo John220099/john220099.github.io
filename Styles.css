@@ -3,7 +3,7 @@ body {
     font-family: 'Helvetica Neue, Arial, sans-serif';
     line-height: 1.6;
     background-color: #5c5c5c;
-    color: #999999;
+    color: #99999999;
     padding: 20px;
     text-align: center;
 }
@@ -13,6 +13,8 @@ nav {
     color: #c2c2c2;
     padding: 10px;
     text-align: center;
+    /*creates a line (color = black)*/
+    border-bottom: 1.5px solid #000000;
 }
 nav a {
     /*navigation stuff*/
@@ -21,7 +23,6 @@ nav a {
     text-decoration: none;
     font-weight: 300;
     display: inline-block;
-    transition: color 0.3s;
 }
 p {
     /*text color*/
@@ -33,12 +34,13 @@ a {
 }    
 footer {
     /*Footer color*/
-    background-color: #5c5c5c;
+    background-color: #474747;
     color: #b51a00;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
-    border-top: 1px solid #5c5c5c;
+    /*creates a line (color = black)*/
+    border-top: 1px solid #000000;
 }
 img {
     /*image border*/

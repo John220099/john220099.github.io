@@ -39,7 +39,7 @@ footer {
     border-top: 1px solid #000000;
 }
 
-p img {
+.code p img {
     /*image border*/
     border: 4px solid #3d3c4c;
 }
